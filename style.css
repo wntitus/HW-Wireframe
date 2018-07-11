@@ -33,7 +33,7 @@ body {
     float: left;
     width: 60%;
     height: 200px;
-    position: relative;
+    overflow: auto;
 }
 
 #aside {
@@ -47,12 +47,16 @@ body {
     color: #ebebeb;
     background: #777;
     width: 90%;
-    margin-left: 5px;
+    /* margin-left: 5px;
     margin-right: 5px;
-    position: absolute;
+    margin-top: 10px; */
+    margin: auto;
+    margin-top: 50px;
+    height: 60%;
+    
 }
 
-h1, p {
+#headers, p {
     color: #777;
     background: #ebebeb;
 }
