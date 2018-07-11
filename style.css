@@ -59,10 +59,14 @@ body {
 #headers, p {
     color: #777;
     background: #ebebeb;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 35px;
 }
 
 #footer {
     float: left;
     width: 960px;
     margin-top: 10px;
+    height: 80px;
 }
