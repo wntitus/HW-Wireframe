@@ -9,9 +9,32 @@ body {
 
 #header, #nav, #section, #aside, #footer {
     background: #ebebeb;
-    width: 495px;
     margin: auto;
     text-align: center;
+}
+
+#header, #nav {
+    height: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#header {
+    margin-bottom: 15px;
+}
+
+#nav {
+    margin-bottom: 30px;
+}
+
+#section {
+    float: left;
+    width: 60%;
+}
+
+#aside {
+    float: right;
+    width: 39%;
 }
 
 #article {
