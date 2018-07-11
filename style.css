@@ -7,6 +7,7 @@
 .container {
     margin-left: 150px;
     margin-right: 150px;
+    clear: both;
 }
 
 body {
@@ -19,4 +20,21 @@ header, #nav {
     height: 35px;
     margin-bottom: 10px;
     padding: 25px;
+}
+
+#left {
+    background-color: white;
+    color: gray;
+    width: 60%;
+    height: 300px;
+    float: left;
+}
+
+#aside {
+    background-color: white;
+    color: gray;
+    width: 40%;
+    height: 300px;
+    float: left;
+    
 }
