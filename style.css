@@ -5,6 +5,8 @@ body {
     width: 960px;
     font-size: 18px;
     margin: auto;
+    clear: both;
+    overflow: hidden;
 }
 
 #header, #nav, #section, #aside, #footer {
@@ -20,29 +22,43 @@ body {
 }
 
 #header {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 #nav {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 #section {
     float: left;
     width: 60%;
+    height: 200px;
+    position: relative;
 }
 
 #aside {
     float: right;
     width: 39%;
+    height: 200px;
+    
 }
 
 #article {
     color: #ebebeb;
     background: #777;
+    width: 90%;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: absolute;
 }
 
 h1, p {
     color: #777;
     background: #ebebeb;
+}
+
+#footer {
+    float: left;
+    width: 960px;
+    margin-top: 10px;
 }
